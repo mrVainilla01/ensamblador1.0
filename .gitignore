@@ -160,3 +160,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+
+# Vercel
+.vercel
