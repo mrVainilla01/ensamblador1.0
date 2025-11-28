@@ -1,0 +1,162 @@
+# Dependencias de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de build
+dist/
+dist-ssr/
+build/
+*.local
+
+# Logs
+logs/
+*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Archivos de sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archivos de prueba
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Archivos de producción
+*.tsbuildinfo
+
+# Archivos de Vite
+vite.config.ts.timestamp-*
+
+# Archivos de TypeScript
+*.tsbuildinfo
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+
+# Archivos de configuración local
+.env.*.local
+
+# Archivos de Supabase locales (si usas Supabase CLI)
+.supabase/
+
+# Archivos de imágenes temporales o de prueba (opcional)
+uploads/
+temp-images/
+
+# Archivos de certificados SSL (si los usas)
+*.pem
+*.key
+*.cert
+
+# Archivos de base de datos local (si usas SQLite para desarrollo)
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de Python (si tienes modelos de IA en Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebooks (si usas notebooks para desarrollo de IA)
+.ipynb_checkpoints/
+*.ipynb
+
+# Modelos de IA entrenados (pueden ser muy grandes)
+*.h5
+*.pkl
+*.pth
+*.onnx
+*.pb
+models/
+checkpoints/
+
+# Archivos de configuración de IDEs
+.vscode/settings.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/libraries/
+
+# Archivos de macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Archivos de Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
